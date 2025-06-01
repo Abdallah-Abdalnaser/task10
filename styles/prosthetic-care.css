@@ -64,7 +64,8 @@
     background-color: var(--lightblue);
 }
 .intro figure > img {
-    width: 15rem;
+    width: 37%;
+    height: 16rem;
 }
 .intro figure figcaption img {
     background-color: var(--SoftPurple);
@@ -72,6 +73,7 @@
     padding: 1rem;
     border-radius: 50%;
     margin-left: 0.5rem;
+
 }
 .intro figure figcaption p {
     max-width: 15rem;
