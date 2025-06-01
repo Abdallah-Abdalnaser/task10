@@ -86,13 +86,11 @@ footer .col-md-8 ul li span {
 
 
 /* responsive  */
-/* small */
-@media (max-width: 991px) {
 
+@media (max-width: 768px) {
+    [data-aos] {
+        opacity: 1 !important;
+        transform: none !important;
+        transition: none !important;
+    }
 }
-
-/* Medium */
-@media (max-width: 1024px) {}
-
-/* Large */
-@media (max-width: 1200px) {}
