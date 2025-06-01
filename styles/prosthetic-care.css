@@ -1,0 +1,133 @@
+/* intro */
+.intro {
+    background-color: var(--blue);
+    color: var(--white);
+    /* height: 100vh; */
+    width: 100vw;
+    padding-top: 8rem;
+    padding-bottom: 2rem;
+    overflow-x: hidden;
+}
+
+.intro .info {
+    max-width: 55%;
+    z-index: 2;
+}
+
+.intro .info  p:first-of-type {
+    font-family: "Amiri", serif;
+    color: var(--SoftPurple);
+    margin-bottom: 2rem;
+}
+
+.intro .info h1 {
+    /* color: var(--blue); */
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+}
+
+.intro .info p {
+    margin-top: 1rem;
+    color: var(--GrayPurple);
+    font-size: 1.4rem;
+    margin-bottom: 4rem;
+}
+
+
+.intro .container {
+    position: relative;
+    z-index: 2;
+}
+
+.intro>img {
+    position: absolute;
+    bottom: 40%;
+    left: 0px;
+    z-index: 1;
+}
+
+.intro .container .buttons {
+    z-index: 2;
+}
+
+
+.intro .container .buttons .quick .btn {
+    background-color: var(--white);
+}
+
+.intro .container .buttons .quick .btn .icon span {
+    color: var(--white);
+    background-color: var(--SoftPurple);
+}
+.intro figure {
+
+    background-color: var(--lightblue);
+}
+.intro figure > img {
+    width: 15rem;
+}
+.intro figure figcaption img {
+    background-color: var(--SoftPurple);
+    color: var(--white);
+    padding: 1rem;
+    border-radius: 50%;
+    margin-left: 0.5rem;
+}
+.intro figure figcaption p {
+    max-width: 15rem;
+}
+.intro figure figcaption .more {
+    color: var(--SoftPurple);
+}
+/* about */
+.about figure img {
+    width: 100%;
+}
+.about figure figcaption {
+    color: var(--GrayPurple);
+    max-width: 30rem;
+}
+
+/* support */
+.support {
+    background-color: var(--LightLavende);
+}
+.support .container .about  p {
+    color: var(--GrayPurple);
+    max-width: 50rem;
+    line-height: 2;
+    font-size: 1.2rem;
+}
+
+/* gift */
+.gift {
+    background-color: var(--lightPurple)
+}
+
+@media (max-width: 991px) {
+    .intro .info {
+        max-width: 100%;
+        z-index: 2;
+    }
+    .intro .col-md-5 {
+        width: 100%;
+    }
+
+    .intro .info h1 {
+        font-size: 2.5rem;
+    }
+
+    .intro .info p {
+        margin-top: 1rem;
+        color: var(--GrayPurple);
+        font-size: 1.5rem;
+    }
+
+    .intro {
+        height: fit-content;
+    }
+
+    .sectionintro p {
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,245 @@
+/* intro */
+.intro {
+    background-color: var(--LightLavende);
+    height: 100vh;
+    width: 100vw;
+    padding-top: 8rem;
+    padding-bottom: 2rem;
+    overflow-x: hidden;
+}
+
+.intro .info {
+    max-width: 55%;
+    z-index: 2;
+}
+
+.intro .info h1 {
+    color: var(--blue);
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+}
+
+.intro .info p {
+    margin-top: 1rem;
+    color: var(--GrayPurple);
+    font-size: 1.4rem;
+    margin-bottom: 4rem;
+}
+
+
+.intro .container {
+    position: relative;
+    z-index: 2;
+}
+
+.intro>img {
+    position: absolute;
+    bottom: 0%;
+    left: 0px;
+    z-index: 1;
+}
+
+.intro .container .buttons {
+    z-index: 2;
+}
+
+
+.intro .container .buttons .quick .btn {
+    background-color: var(--white);
+}
+
+.intro .container .buttons .quick .btn .icon span {
+    color: var(--white);
+    background-color: var(--SoftPurple);
+}
+
+/* About */
+.about .card {
+    border: 1ps solid #FFFFFF;
+    width: 100%;
+    height: 12rem;
+    overflow: hidden;
+}
+
+.about .card .icon svg {
+    background-color: var(--SoftPurple);
+    color: var(--white);
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+.about .card h5 {
+    font-weight: 600;
+}
+
+.about .card P {
+    color: var(--GrayPurple);
+    font-size: 0.8rem;
+    width: rem;
+}
+
+
+.about .partner p {
+    color: var(--GrayPurple);
+    padding: 2.5rem 0px;
+}
+
+swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+swiper-slide img {
+    display: block;
+    height: 2rem;
+    object-fit: cover;
+}
+
+/* programs */
+.programs {
+    background-color: var(--LightLavende);
+}
+.programs ul li .card-body h5{
+    color: var(--black);
+}
+.programs ul li .card-body p{
+    color: var(--GrayPurple);
+}
+.programs .progress{
+    background-color: var(--PaleBlue);
+}
+.programs .progress-bar{
+    background-color: var(--SoftPurple);
+}
+.programs .container .share svg{
+    color: var(--SoftPurple);
+    font-size: 1rem;
+    border: 2px solid var(--SoftPurple);
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.programs .amount span:last-of-type ,
+.programs .number span:last-of-type {
+    color: var(--GrayPurple);
+    font-weight: 400;
+}
+/* chooseus */
+.chooseus img {
+    right: 0px;
+    top: 25%;
+}
+.chooseus .container .row h3 {
+    font-size: 2rem;
+    font-weight: 800;
+} 
+.chooseus .container .row span {
+    font-size: 0.8rem;
+}
+
+.accordion-item button {
+    justify-content: space-between;
+}
+.accordion-item button:focus{
+    box-shadow: none;
+}
+.accordion-item button.accordion-button{
+    background-color: var(--white);
+}
+.accordion-button::after {
+    margin-left: 0px !important;
+}
+/* Articel */
+.Articel {
+    background-color: var(--LightLavende);
+}
+.Articel ul li img {
+    min-height: 15rem;
+}
+.Articel ul li span {
+    font-size: 0.8rem;
+}
+/* contact */
+.contact form  {
+    background-color: var(--LightLavende);
+    border-radius: 1rem;
+}
+.contact form h3 {
+    color: var(--black);
+    font-weight: 700;
+}
+.contact form p {
+    color: var(--GrayPurple);
+}
+.contact form textarea {
+    height: 9rem;
+    resize: none;
+}
+.contact .locations .info h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.contact .locations .info p {
+    color: var(--GrayPurple);
+}
+.contact .locations svg {
+    background-color: var(--SoftPurple);
+    color: var(--white);
+    padding: 1rem;
+    border-radius: 50%;
+    margin-left: 0.5rem;
+}
+/* gift */
+.gift {
+    background-color: var(--LightLavende);
+    overflow: hidden;
+}
+.gift h1 {
+    font-weight: 700;
+    max-width: 35rem;
+}
+.gift img {
+    height: 21rem;
+}
+/* responsive  */
+/* small */
+@media (max-width: 991px) {
+    .intro .info {
+        max-width: 100%;
+        z-index: 2;
+    }
+
+    .intro .info h1 {
+        color: var(--blue);
+        font-size: 2.5rem;
+    }
+
+    .intro .info p {
+        margin-top: 1rem;
+        color: var(--GrayPurple);
+        font-size: 1.5rem;
+    }
+
+    .intro {
+        height: fit-content;
+    }
+
+    .sectionintro p {
+        font-size: 1rem;
+    }
+}
+
+/* Medium */
+@media (max-width: 1024px) {}
+
+/* Large */
+@media (max-width: 1200px) {}
